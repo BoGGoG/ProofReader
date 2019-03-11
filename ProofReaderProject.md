@@ -3,3 +3,4 @@
 - `pip3 -e install .`
 - `import unittests` standard library
 - write failing test
+- class Netspeak should have complexity

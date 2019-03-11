@@ -1,0 +1,12 @@
+#!/home/mknipfer/Documents/projects/PythonCourse2019/ProofReader/pr-py36/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'ProofReader','console_scripts','proofread'
+__requires__ = 'ProofReader'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('ProofReader', 'console_scripts', 'proofread')()
+    )
