@@ -1,2 +1,5 @@
 - input should be `proofread -i input_filename -o output_filename`
--
+- create setup.py
+- `pip3 -e install .`
+- `import unittests` standard library
+- write failing test
