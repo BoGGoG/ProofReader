@@ -14,10 +14,13 @@ class Netspeak:
         return parse.urlencode(params)
 
     def _make_request(self, query):
-        pass
+        url = self._base_query_url+"?"+query
+        return request.urlopen(url)
 
     def _read_result(self, response):
-        pass
+        binary_data = response.read()
+        data = binary_data.decode()
+        return data
 
 
 
