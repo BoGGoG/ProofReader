@@ -1,4 +1,7 @@
+
 # Python course 2019
+
+# Day One
 book: [Obey the Testing Goat!](https://www.obeythetestinggoat.com/book/praise.harry.html)
 
 TDD <=> unit tests
@@ -70,13 +73,23 @@ TDD <=> unit tests
 - reduce complexity
 - you cannot refactor without tests
 - general rule: Three strikes and refactor
+
 # Generally
 - avoid complexity
 - setuptools
 - entry_points = applications
 - don't skip steps! Don't be the refactoring cat
+- either work on production code or on tests. Freeze one, work on the other.
 
 # Mocking and Patching
 - monkeypatching: In test replace imported function with fake function
 - from unittest.mock import Mock -> class where the objects have every attribute and function!
 - Mocks are dangerous, avoid using unless needed
+
+
+# Day Two: Tuesday
+
+## Patching
+- the patching defines what arguments a test function takes
+
+
